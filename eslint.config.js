@@ -3,7 +3,6 @@ import jest from "eslint-plugin-jest";
 import js from "@eslint/js";
 import stylistic from "@stylistic/eslint-plugin";
 
-/** @type {import('eslint').Linter.Config[]} */
 export default [
   js.configs.recommended,
   { ignores: ["*.config.*"] },
